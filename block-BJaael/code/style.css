@@ -33,3 +33,16 @@ img {
   max-width: 100%;
   height: auto;
 }
+.heading{
+  text-align: center;
+}
+.box{
+  width: 4rem;
+  height: 4rem;
+  border: 1px solid black;
+}
+.box-container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
