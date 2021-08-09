@@ -16,7 +16,6 @@ setTimeout(() => {
 secondBox.addEventListener('click',(event) => {
     let text = event.target.dataset.text;
     event.target.innerText = text;
-console.log(event);
     setTimeout(() => {
     event.target.innerText = "";
 },5000);
