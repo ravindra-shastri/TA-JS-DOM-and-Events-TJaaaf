@@ -54,7 +54,7 @@ function game(userChoice) {
         case "scissorsScissors":
         result.innerText = "😕It's A tie!";
         result.style.fontSize = "xxx-large"
-        result.style.color = "rgb(255, 0, 136)";
+        result.style.color = "rgb(20, 0, 255)";
         break;
 
     }
