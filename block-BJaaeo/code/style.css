@@ -1,0 +1,118 @@
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+  }
+  
+  *,
+  *:before,
+  *:after {
+    box-sizing: inherit;
+  }
+  
+  body,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p,
+  ol,
+  ul {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+  }
+  
+  ol,
+  ul {
+    list-style: none;
+  }
+  h1{
+      text-align: center;
+      font-size: 5rem;
+      margin: 1.5rem 0;
+  }
+  .box-container{
+      width: 30%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-wrap: wrap;
+      margin: 0 auto;
+
+  }
+  .big-box{
+      width: 35rem;
+      height: 5rem;
+      background-color: black;
+      border: 1px solid black;
+      border-radius: 1rem;
+      padding: 4rem;
+      margin:.5rem;
+      margin-left: -1.4rem;
+      color: #fff;
+      font-size: 4.5rem;
+      display: flex;
+    align-items: center; 
+  }
+  .num-box1{
+    width: 36rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+ 
+  }
+  .pink-box{
+      width: 8rem;
+      height: 5rem;
+      background-color: #710133;
+      border: 1px solid black;
+      border-radius: 1rem;
+      margin-right: 1rem;
+      text-align: center;
+      padding: .5rem;
+      color: #fff;
+      font-size: 3.5rem;
+  }
+  .box-green{
+    width: 8rem;
+    height: 24rem;
+    background-color:#018080;
+    border: 1px solid black;
+    border-radius: 1rem;
+    margin: .5rem;
+    text-align: center;
+    color: black;
+    font-size: 4.8rem;
+    padding-top: 10rem;
+
+  }
+.new-box-content{
+    width: 37rem;
+    display: flex;
+}
+  .box-grey{
+    width: 8rem;
+    height: 5rem;
+    background-color:#CFCFCF;
+    border: 1px solid black;
+    border-radius: 1rem;
+    margin: .5rem;
+    text-align: center;
+    padding: .5rem;
+    color: black;
+    font-size: 3.5rem;
+  }
+  .num-box2{
+    width: 27rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .clear{
+      background-color: #3D1B10;
+      color: #FFE4C4;
+  }
