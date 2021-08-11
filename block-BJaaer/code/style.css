@@ -24,6 +24,7 @@ ul {
   margin: 0;
   padding: 0;
   font-weight: normal;
+  font-size: 1.4rem;
 }
 
 ol,
@@ -90,4 +91,23 @@ input[type='text'] {
 }
 .terms {
   display: inline-block;
+}
+.user-data{
+  position: absolute;
+  top: 30%;
+  left: 30%;
+  width: 60%;
+  background-color: #fff;
+  margin: 0 auto;
+  padding: 2rem;
+  font-size: 1.4rem;
+  display: none;
+}
+.visible {
+  display: block;
+} 
+
+.btn{
+margin-left: 20rem;
+  color: darkgray;
 }
