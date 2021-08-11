@@ -35,3 +35,15 @@ img {
   max-width: 100%;
   height: auto;
 }
+form{
+  background-color: #fff;
+}
+.header{
+  background-color: darkgray;
+  padding: 1rem;
+  margin: 1rem;
+  text-align: ;
+}
+.form-control{
+  display: flex;
+}
