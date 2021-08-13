@@ -130,12 +130,13 @@ small{
   color: red;
 }
 
-input :valid{
-  color: green;
+input:valid{
+  border:2.5px solid green;
+  background-color: rgba(114,201,142,0.2);
 }
-input :invalid{
-  border: dotted red;
+input:invalid{
+  border: 2.5px dashed rgb(255, 0, 234);
 }
-input :required{
-color: blue;
+input:required{
+border:2.5px solid blue;
 }
