@@ -106,7 +106,7 @@ form{
 }
 .form-control{
   width: 100%;
-  padding: 1rem;
+  padding: .6rem;
   display: flex;
   flex-direction: column;
   
@@ -120,8 +120,22 @@ input{
   font-size: 1rem;
 }
 button{
-  width: 100%;
-  padding: 1rem 1.6rem;
+  width: 92%;
+  padding: 1rem 1.5rem;
   margin: .8rem 0;
+  margin-left: .7rem;
   background-color: lightpink;
+}
+small{
+  color: red;
+}
+
+input :valid{
+  color: green;
+}
+input :invalid{
+  border: dotted red;
+}
+input :required{
+color: blue;
 }

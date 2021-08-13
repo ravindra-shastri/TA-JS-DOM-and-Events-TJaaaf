@@ -2,7 +2,7 @@
 
 Rules for form validation:
 
-1. Username can't be less than 4 characters
+1. Username "can't be less than 4 characters"
 2. Name can't be numbers
 3. Email must contain the symbol `@`
 4. Email must be at least 6 characters
