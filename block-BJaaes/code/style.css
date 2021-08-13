@@ -1,0 +1,142 @@
+/* CSS Reset */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* ----------------- */
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+ 
+/* PAGE STYLE */
+.container{
+  width: 24%;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid darkgray;
+  padding: 0 2rem;
+  margin: 0 auto;
+  margin-top: 1rem;
+}
+form{
+  background-color: #fff;
+}
+.header{
+  background-color: darkgray;
+  padding: 1rem;
+  margin: 1rem;
+  font-size: 2rem;
+  font-weight: 900;
+}
+.form-control{
+  width: 100%;
+  padding: .6rem;
+  display: flex;
+  flex-direction: column;
+  
+}
+label{
+  font-size: 1.4rem;
+}
+input{
+  padding: 1rem;
+  background-color: rgb(217, 245, 253);
+  font-size: 1rem;
+}
+button{
+  width: 92%;
+  padding: 1rem 1.5rem;
+  margin: .8rem 0;
+  margin-left: .7rem;
+  background-color: lightpink;
+}
+small{
+  color: red;
+}
+
+input:valid{
+  border:2.5px solid green;
+  background-color: rgba(114,201,142,0.2);
+}
+input:invalid{
+  border: 2.5px dashed rgb(255, 0, 234);
+}
+input:required{
+border:2.5px solid blue;
+}
