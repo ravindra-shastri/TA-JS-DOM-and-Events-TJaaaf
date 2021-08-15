@@ -1,0 +1,53 @@
+.container{
+    max-width: 1320px;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  h1{
+    text-align: center;
+    color: rgb(158, 89, 89);
+    font-size: 5rem;
+    margin: 0;
+  }
+  
+  .input-area{
+    padding: 1.4rem;
+    width: 30%;
+    font-size: 1.4rem;
+    margin: 0 auto;
+  }
+  
+  li{
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+    list-style: none;
+    margin: 0 24rem;
+  }
+  span:hover{
+    display: block;
+  }
+  span{
+    margin-right: 5rem;
+  }
+  .btn-box{
+      margin-left: 1.6rem;
+  }
+  .btn{
+    color: rgb(255, 255, 255);
+    background-color: rgb(255, 135, 135);
+    border-radius: 1rem;
+    margin-right: 1.4rem;
+    font-size: 1.1rem;
+  }
+  .btn:hover{
+    background-color: rgb(255, 255, 255);
+    color: cornflowerblue;
+  }
+  .selected{
+    background-color: white !important;
+    border: 1px solid !important;
+    color: black !important;
+  }
