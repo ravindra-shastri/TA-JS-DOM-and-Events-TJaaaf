@@ -67,18 +67,20 @@ table {
     text-align: center;
     color: rgb(224, 221, 221);
     font-size: 5rem;
-    margin: 0;
+    margin:1rem;
     padding: 1rem;
+    box-shadow: 1px 4px 5px 3px aqua;
   }
   
   .input-area{
     padding: 1rem 6rem;
     width: 40%;
-    font-size: 1.1rem;
-    color:rgb(71, 67, 67);
+    font-size: .9rem;
+    font-weight: 800;
+    color:black;
     margin: 0 auto;
     background-color: rgb(202, 198, 198);
-
+    box-shadow: 1px 2px 3px 3px white;
   }
   
   li{
@@ -103,6 +105,7 @@ table {
     margin: 1rem .3rem;
     font-size: 1.12rem;
     padding: .3rem;
+    box-shadow: 1px 2px 3px 3px rgb(255, 175, 148);;
 
   }
   .btn:hover{
@@ -165,7 +168,7 @@ table {
   width: 64rem;
   margin: 2rem;
   text-align: center;
-  border: 2px solid black;
+  border: 2px solid aqua;
   border-radius: 20px;
   box-shadow: 1px 4px 5px 3px aqua;
   display: flex;
@@ -175,4 +178,5 @@ table {
   padding: 1.4rem;
   box-shadow: 1px 4px 5px 3px aqua;
   /* color: aqua; */
+  border-radius:1rem ;
 }
